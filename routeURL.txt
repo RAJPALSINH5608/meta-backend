@@ -1,0 +1,18 @@
+"superadmin login "           :: http://127.0.0.1:3000/api/v1/auth/account/adminlogin
+"admin create "               :: http://127.0.0.1:3000/api/v1/admin/:username/createAdmin
+admin profile updateDetail  :: http://127.0.0.1:3000/api/v1/auth/account/:username/adminUpdate
+"user registeration  "        :: http://127.0.0.1:3000/api/v1/userregister
+"userLogin  "                 :: http://127.0.0.1:3000/api/v1/userlogin
+'broker registeration '       :: http://127.0.0.1:3000/api/v1/userregister
+"logout"
+'marketplace : ready to sell ':: http://127.0.0.1:3000/api/v1/marketplace/allnft
+"usernft  "                   :: http://127.0.0.1:3000/api/v1/marketplace/userNft
+'nft addDetail '              :: http://127.0.0.1:3000/api/v1/marketplace/search?{nftName= , nftId= }
+'createnft'
+'publish to marketplace'      :: http://127.0.0.1:3000/api/v1/tiledetail/:username/:nftid/updateNFT
+'leaderboard'
+'user'
+'broker'
+'add new city'
+'change price'
+'all city available'
